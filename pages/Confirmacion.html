@@ -15,7 +15,7 @@
 <body onload="paginados()">
     <nav id="navbar" class="navbar">
         <a href="../index.html">
-            <!-- <img src="../resources/imagenes/palomitas.svg"> -->
+            <img id="palomitas" src="../resources/imagenes/palomitas.svg">
             <span class="navbar-brand h1" style="color:white; font-size:30px;">Cines Sausf</span>
         </a>
     </nav>
@@ -24,26 +24,31 @@
             <div class="col-md-8 mx-auto confirmacion">
                 <div class="row">
                     <div class="col-md-6" id="pelicula"></div>
+                </div>
+                <div class="row">
                     <div class="col-md-6" id="hora">
-                        <select id="select" class="form-control">
-                            <option selected disabled>Numero de entradas</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
-                        </select>
-                        <button type="button" onclick="confirmar()" id="boton" class="btn btn-info">Ir a seleccion de asientos</button>
                     </div>
                 </div>
+                <div class="row">
+                    <select id="select" class="form-control">
+                        <option selected disabled>Numero de entradas</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    <button type="button" onclick="confirmar()" id="boton" class="btn btn-info">Ir a seleccion de asientos</button>
+                </div>
             </div>
-
         </div>
+
+    </div>
     </div>
     <footer>
         <div class="container-fluid">
@@ -54,7 +59,9 @@
         </div>
 
     </footer>
+
     <script src="../js/jquery.js"></script>
+    <script src="../js/style.js"></script>
     <script src="../js/app.js"></script>
 </body>
 
