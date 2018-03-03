@@ -1,0 +1,184 @@
+body {
+    background: linear-gradient(to right, rgb(61, 104, 243), rgb(146, 92, 160));
+}
+
+.principal {
+    position: relative;
+    top: 50px;
+}
+
+#navbar {
+    background-color: rgb(37, 38, 48);
+}
+
+/* .rows {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 480px;
+    margin-bottom: 100px;
+} */
+
+.col-md-3 {
+    border-radius: 1em;
+    margin-right: 30px;
+    background-color: rgb(108, 170, 241);
+}
+
+img {
+    display: flex;
+    width: 200px;
+    height: 300px;
+}
+
+button {
+    position: relative;
+    left: 220px;
+    top: -200px;
+}
+
+.horario {
+    display: none;
+}
+
+.horariolunes {
+    position: relative;
+    top: 500px;
+}
+
+.horariomartes {
+    position: relative;
+    top: 500px;
+}
+
+.horariomiercoles {
+    position: relative;
+    top: 500px;
+}
+
+.horariojueves {
+    position: relative;
+    top: 500px;
+}
+
+.horarioviernes {
+    position: relative;
+    top: 500px;
+}
+
+.horariosabado {
+    position: relative;
+    top: 500px;
+}
+
+.horariodomingo {
+    position: relative;
+    top: 500px;
+}
+.confirmacion {
+    margin-top: 10%;
+}
+footer {
+    background-color: #252630;
+    height: 6%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+.footer {
+    background-color: #252630;
+    height: 6%;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+}
+h4 {
+    margin-top: 10px;
+    color: white;
+}
+
+#licencia {
+    display: inline;
+    position: relative;
+    top: -38px;
+    left: 200px;
+}
+
+h3 {
+    position: relative;
+    top: 7%;
+    left: -10%;
+}
+
+select {
+    position: relative;
+    top: 35%;
+    left: -10%;
+}
+
+#boton {
+    width: 230px;
+    position: absolute;
+    top: 60%;
+    left: -5%;
+}
+
+svg {
+    border-radius: 2em;
+    margin-top: 10%;
+}
+
+h3 {
+    margin-left: 50%;
+}
+
+use {
+    width: 20%;
+    height: 20%;
+}
+
+svg {
+    background-color: white;
+}
+
+.activo {
+    fill: green !important;
+}
+
+.inactivo {
+    fill: white !important;
+}
+
+.ocupado {
+    fill: red !important;
+}
+
+#pagar{
+    width: 150px;
+}
+
+#svg{
+    height: 86%;
+}
+form{
+    margin-top: 100px;
+}
+
+#navbar>img{
+    float: left !important;
+}
+.container-materialize{
+    height: 100%;
+    width: 100%;
+}
+
+center{
+    margin:0 auto;
+    text-align: center;
+}
+
+.waves-effect{
+    position: relative;
+    top: 100px;
+}
